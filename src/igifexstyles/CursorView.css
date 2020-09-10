@@ -1,0 +1,38 @@
+/*>>>>>CURSOR VIEW<<<<<<<*/
+#pointer-dot {
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    /*border: 2.5px solid white;*/
+    border: 2.5px solid red;
+    position: fixed;
+    border-radius: 4px;
+    z-index: 9999;
+    pointer-events: none;
+    transition: border-color 0.5s;
+    mix-blend-mode: difference;
+}
+
+#pointer-ring {
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    padding: 15px;
+    /*border: 2px solid #750c7e;*/
+    border: 2px solid var(--primary-font-color);
+    position: fixed;
+    border-radius: 100px;
+    z-index: 9999;
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+/*html {
+    cursor: none !important;
+}*/
+
+a {
+    cursor: none !important;
+}

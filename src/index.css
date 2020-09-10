@@ -1,0 +1,200 @@
+@import url('./igifexstyles/icons/fontawesome/css/all.min.css');
+@import url('./igifexstyles/Toastify.css');
+
+/*>>>>>>>>>>FONT DECLARATION<<<<<<<<<<<*/
+/*@font-face {
+    font-family: extoticdmbd;
+    src: url("fonts/extoticdmbd.ttf");
+}*/
+
+@font-face {
+    font-family: humanstbt;
+    src: url("./igifexstyles/fonts/humanstbt.ttf")
+}
+
+@font-face {
+    font-family: ibmplexsans;
+    src: url("./igifexstyles/fonts/IBMPlexSans-Regular.ttf")
+}
+
+
+@font-face {
+    font-family: colonna;
+    src: url("./igifexstyles/fonts/colonna.ttf");
+}
+
+/*
+@font-face {
+    font-family: goudy;
+    src: url("./igifexstyles/fonts/goudos.ttf");
+}
+
+@font-face {
+    font-family: tempus;
+    src: url("./igifexstyles/fonts/TempusSITC.ttf");
+}
+*/
+/*>>>>>>>>END OF FONT DECLARATION<<<<<<<*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+    --font-color: rgba(255, 255, 255, 1);
+    --primary-font-color: rgba(238, 0, 11, 1);
+    --bg-color: rgb(0, 0, 0);
+    --rendered-icons-opacity: 0.15;
+    /*--secondary-bg-color: rgba(34, 35, 39);*/
+    --secondary-bg-color: rgba(15, 15, 15);
+    --switch-shadow: rgba(238, 0, 11, 1);
+    --reduced-opacity: 0.7;
+    --reduced-opacity2: 0.6;
+    --reduced-opacity3: 0.9;
+    --less-font-color-opacity: rgba(255, 255, 255, 0.6);
+    --less-font-color-opacity2: rgba(255, 255, 255, 0.65);
+
+}
+[data-theme="light"] {
+    --font-color: rgba(0, 0, 0, 1);
+    --primary-font-color: rgba(238, 0, 11, 1);
+    --bg-color: #fff;
+    --rendered-icons-opacity: 0.5;
+    --secondary-bg-color: rgba(220, 220, 220);
+    --switch-shadow: yellow;
+    --reduced-opacity: 0.8;
+    --reduced-opacity2: 0.7;
+    --reduced-opacity3: 0.9;
+    --less-font-color-opacity: rgba(0, 0, 0, 0.7);
+    --less-font-color-opacity2: rgba(0, 0, 0, 0.8);
+}
+
+
+html {
+	font-size: 65.2%;
+	scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+html a {
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+body {
+	font-size: 1.8rem;
+	font-family: humanstbt;
+    background-color: var(--bg-color);
+    transition: color 0.3s ease;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 1.2rem;
+    line-height: 2.5rem;
+    word-spacing: .2.8rem;
+    word-break: break-strict;
+}
+
+::selection {
+    background-color: yellow;
+    color: #000;
+}
+
+.header-wrapper {
+    background-color: orange;
+    width: 100%;
+}
+
+.home-main {
+    background-color: var(--bg-color);
+}
+
+.main {
+    background-color: var(--secondary-bg-color);
+}
+
+.para {
+	background-color: purple;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+
+.rendered-icons {
+  position: absolute;
+  border-radius: 100%;
+  opacity: var(--rendered-icons-opacity);
+  z-index: 0;
+}
+
+.rendered-icons i {
+    z-index: 0;
+}
+
+.project-section, .about-section, .contact-section {
+    padding: 7.8rem 12rem 1rem 12rem;
+    z-index: 3 !important;
+    background-color: var(--secondary-bg-color);
+    min-height: 100vh;
+    opacity: 1;
+    color: var(--font-color);
+    transition: background-color 0.3s ease;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.dash {
+    width: 2rem;
+    height: 0.1rem;
+    background-color: var(--font-color);
+    display: inline-block;
+    margin: 0 0 .7rem .5rem;
+}
+
+
+
+/*>>>>>SCROLLBAR<<<<<<<*/
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 00 5px black;
+    border-radius: 10px
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--primary-font-color);
+    border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+/*
+.scroller {
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-color: red white;
+    scrollbar-width: thin;
+}*/
+
+

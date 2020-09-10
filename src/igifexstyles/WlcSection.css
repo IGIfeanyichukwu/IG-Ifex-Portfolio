@@ -1,0 +1,108 @@
+.welcome-section {
+	background-color: var(--bg-color);
+	color: var(--font-color);
+	width: 100%;
+	height: 100vh;
+	/*padding: 7.8rem 6rem 0rem 6rem;*/
+	padding: 0rem 6rem 0rem 6rem;
+	display: flex;
+	align-items: center;
+	z-index: 0;
+	transition: background-color 0.3s ease;
+	max-width: 1366px;
+	margin: 0 auto;
+}
+
+
+.pbtn {
+    background-color: transparent;
+    padding: 1rem;
+    text-decoration: none;
+    /*color: var(--primary-font-color);*/
+    color: var(--font-color);
+    border-radius: 10rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    border: 1.5px solid var(--primary-font-color);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    margin-top: 1rem;
+    font-family: ibmplexsans;
+}
+
+.pbtn:hover {
+	background-color: var(--primary-font-color);
+	color: #fff;
+}
+
+.ws-left {
+	/*background-color: orange;*/
+	height: 100%;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+	flex-direction: column;
+	z-index: 2;
+	padding-left: 6rem;
+}
+
+.ws-right {
+	/*background-color: pink;*/
+	height: 100%;
+	align-items: center;
+	width: 40%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	z-index: 2;
+	padding-right: 6rem;
+}
+
+.ws-left h4 {
+	margin: 1rem 0;
+	font-size: 2.2rem;
+
+}
+
+.ifex-name {
+	/*font-variant: small-caps;*/
+	font-family: colonna;
+	font-weight: 500;
+	/*background-color: green;*/
+	margin-top: 0.2rem;
+	/*font-size: calc(30px + (55-30) * ((100vw - 300px) / (1600 - 300)));*/
+	font-size: 7rem;
+}
+
+.cta-wrapper {
+	/*background-color: green;*/
+	padding: 0;
+	margin-top: 2rem;
+}
+
+.description {
+	color: var(--less-font-color-opacity2);
+}
+
+.ws-left p {
+	/*opacity: var(--reduced-opacity2);*/
+	color: var(--less-font-color-opacity);
+	line-height: 2.3rem;
+}
+
+.op1 {
+	color: var(--font-color);
+}
+
+.tool-link a {
+	color: rgb(87, 89, 136);
+	transition: all 0.2s ease;
+	font-weight: bold;
+}
+
+.tool-link a:hover {
+	text-decoration: underline;
+	color: var(--primary-font-color);
+}

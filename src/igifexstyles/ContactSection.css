@@ -1,0 +1,110 @@
+.cs-head-txt {
+	margin: 1rem 0 0.8rem 0;
+	opacity: 0.8;
+	font-family: ibmplexsans;
+	font-variant: small-caps;
+}
+
+.contact-section > p {
+	opacity: 0.8;
+	font-size: 1.8rem;
+}
+
+.help-out {
+	font-size: 2.2rem;
+	margin: 3rem 0 0 0;
+}
+
+.reach-out {
+	font-size: 4.5rem;
+	margin: 3rem 0 3rem 0;
+	font-family: arial, sans-serif;
+}
+
+.contact-info {
+	/*background: orange;*/
+	display: flex;
+}
+
+.contact-info div {
+	margin: 1rem 0;
+}
+
+.contact-info div h4 {
+	opacity: 0.7;
+}
+
+.contact-info div p {
+	font-size: 3rem;
+	margin: 1.5rem 0;
+}
+
+.contact-info div p a {
+	color: var(--font-color);
+}
+
+.contact-info div:nth-child(1) {
+	/*background-color: green;*/
+}
+
+.contact-info div:nth-child(2) {
+	/*background-color: pink;*/
+	margin-left: 5rem;
+}
+
+.email-info span, .tel-info span {
+	width: 0;
+	height: 0.15rem;
+	background-color: var(--primary-font-color);
+	display: block;
+	margin-top: .8rem;
+	transition: width .3s ease;
+}
+
+.email-info a:hover + span, .tel-info a:hover + span {
+	width: 100%;
+}
+
+.connect-links {
+	font-family: arial, sans-serif;
+	margin-top: 1rem;
+
+}
+
+.connect-links ul {
+	display: flex;
+	gap: 2rem;
+	font-size: 2rem;
+	margin-top: 1.5rem;
+}
+
+.connect-links ul li {
+	list-style: none;
+	transition: transform .2s ease;
+}
+
+.connect-links ul li:hover {
+	transform: scale(1.5) rotate(-15deg);
+	transform-origin: 0% 50%
+}
+
+.connect-links ul li:nth-child(1) a, .connect-links ul li:nth-child(2) a {
+	color: var(--font-color);
+} 
+
+.connect-links ul li:nth-child(3) a {
+	color: rgba(28, 156, 234);
+}
+
+.connect-links ul li:nth-child(4) a {
+	color: rgba(0, 115, 177);
+}
+
+.foot-text {
+	font-size: 1.34rem  !important;
+	margin-top: 2rem;
+}
+
+.foot-text i {
+	opacity: 0.9;
+}

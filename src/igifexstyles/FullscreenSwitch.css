@@ -1,0 +1,11 @@
+.fullscreen-switch {
+	color: var(--font-color);
+	margin-right: 1.5rem;
+	transform: translateY(1px);
+}
+
+.fullscreen-switch i {
+	font-size: 1.8rem;
+	text-shadow: 0px 0px 1px var(--primary-font-color);
+	opacity: 0.7;
+}

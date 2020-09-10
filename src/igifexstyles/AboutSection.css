@@ -1,0 +1,38 @@
+.activate-zoom {
+	/*max-width: 100%;*/
+}
+
+.about h2 {
+	margin: 1rem 0 0.8rem 0;
+	font-family: ibmplexsans;
+	font-variant: small-caps;
+	/*background: orange;*/
+}
+
+.about p {
+	opacity: 0.9;
+}
+
+.toolbox-section h3 {
+	margin: 2.5rem 0 0.8rem 0;
+	/*background: orange;*/
+}
+
+.toolbox-section p {
+	opacity: 0.9;
+}
+
+.tool-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-gap: 2rem;
+	/*background: orange;*/
+	margin: 3rem 5rem 0 5rem;
+}
+
+.tool-list li {
+	list-style: none;
+	text-align: center;
+	/*background-color: orange;*/
+}
