@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import BottomNav from './BottomNav';
 import AllProjects from './AllProjects';
 import '../igifexstyles/ProjectSection.css';
@@ -11,6 +11,8 @@ const allRenderedicons = document.querySelectorAll('.rendered-icons');
      icon.style.display = 'none';
    })
  }
+
+
 
 	return (
 		<div className="project-section">

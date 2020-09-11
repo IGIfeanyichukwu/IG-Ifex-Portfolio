@@ -15,7 +15,7 @@ return (
 			<h1 className="ifex-name">I. G Ifeanyichukwu.</h1>
 
 			<h4 className='description'>I'm a creative <b style={{color: 'var(--primary-font-color)', opacity: '0.8'}}>Frontend Developer</b> based in Nigeria.</h4>
-			<p>I build visually appealing fully responsive websites and applications using awesome technologies like <span className="op1">SASS</span>, <span className="op1">JavaScript</span> and <span className="op1">PHP</span> basically. Check out my <span className="op1 tool-link"><Link to="/about#toolbox" >toolbox</Link></span> for a comprehensive list of tools I currently work with.</p>
+			<p>I build visually appealing fully responsive websites and applications using awesome technologies like <span className="op1">CSS</span>, <span className="op1">JavaScript</span> and <span className="op1">PHP</span> basically. Check out my <span className="op1 tool-link"><Link to="/about#toolbox" >toolbox</Link></span> for a comprehensive list of tools I currently work with.</p>
 			<div className="cta-wrapper">
 			<Link to="/projects" className="pbtn">My Projects</Link>
 			</div>
