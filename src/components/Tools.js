@@ -4,7 +4,7 @@ import htmlLogo from '../igifexstyles/images/html.png';
 import cssLogo from '../igifexstyles/images/css.png';
 import sassLogo from '../igifexstyles/images/sass.svg';
 import bootstrapLogo from '../igifexstyles/images/bootstrap.png';
-import tailwindLogo from '../igifexstyles/images/tailwind.png';
+import tailwindLogo from '../igifexstyles/images/tailwindcss.svg';
 import jsLogo from '../igifexstyles/images/javascript.png';
 import reactLogo from '../igifexstyles/images/react.png';
 import typescriptLogo from '../igifexstyles/images/typescript.svg';
@@ -13,7 +13,8 @@ import mysqlLogo from '../igifexstyles/images/mysql.svg';
 import wordpressLogo from '../igifexstyles/images/wordpress.svg';
 import responsiveLogo from '../igifexstyles/images/responsive.svg';
 import codeLogo from '../igifexstyles/images/code.svg';
-import gitLogo from '../igifexstyles/images/git.svg';
+import gitLogo from '../igifexstyles/images/versioncontrol.svg';
+import jqueryLogo from '../igifexstyles/images/jquery.svg';
 
 
 
@@ -51,7 +52,7 @@ const Tools = () => {
 	},
 	{
 		id: 4,
-		logo: alogo,
+		logo: jqueryLogo,
 		name: 'jQuery'
 	},
 	{
@@ -102,7 +103,7 @@ const Tools = () => {
 	}
 
 	return allTools.map((tool) => (
-			<li>
+			<li data-aos="fade-up">
 				<img src={tool.logo} alt="" style={imgStyle} />
 				<p>{tool.name}</p>
 			</li>

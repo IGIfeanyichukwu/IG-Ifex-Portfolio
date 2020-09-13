@@ -8,27 +8,86 @@
 }
 
 .ps-head-txt {
-	font-family: ibmplexsans;
+	font-family: Nunito;
 	font-variant: small-caps;
 }
 
 .project-list {
-	display: flex;
-	gap: 3rem;
-	flex-wrap: wrap;
+	display: grid;
+	grid-gap: 3rem;
 	justify-content: center;
 	align-items: center;
-	/*grid-template-columns: 1fr 1fr;*/
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	margin: 2.5rem 0;
 }
 
 .project-list li {
 	list-style: none;
-	background-color: orange;
-	/*text-align: center;*/
+	/*border: 1px solid var(--font-color);*/
+	position: relative;
+	background-color: var(--third-bg-color);
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
 }
 
-.project-list li div {
-	background-color: blue;
-	width: 400px;
-	min-width: 100%;
+.project-list li img {
+	height: auto;
+	max-width: 100%;
+	object-fit: cover;
+	transition: all .3s ease;
+	display: block;
+}
+
+.project-list li > div {
+	/*margin-top: 1rem;*/
+	padding: 1.5rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	/*align-items: center;*/
+	justify-content: space-between;	
+	/*background-color: orange;*/
+}
+
+.project-list li div div:nth-child(1) {
+	/*background-color: pink;*/
+}
+
+.project-list li div div:nth-child(1) h4 {
+	margin-bottom: 1rem;
+	font-size: 2rem;
+}
+
+.project-list li div div:nth-child(1) p {
+	font-size: 1.6rem;
+	opacity: .8;
+}
+
+.project-list li div div:nth-child(2) {
+	/*background-color: red;*/
+	display: flex;
+	grid-gap: 2rem;
+}
+
+.project-list li div div:nth-child(2) a {
+	text-decoration: none;
+	color: var(--forth-bg-color);
+	display: block;
+	/*border: 1px solid white;*/
+	padding: 0.4rem 0.7rem;
+	border-radius: 0.6rem;
+	background-color: var(--font-color);
+	font-size: 1.5rem;
+	transition: all .2s ease;
+}
+
+.project-list li div div:nth-child(2) a:hover {
+	color: var(--bg-color);
+}
+
+.project-list li:hover img {
+	/*object-fit: fill;*/
 }

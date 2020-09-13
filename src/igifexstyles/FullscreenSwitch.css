@@ -2,10 +2,19 @@
 	color: var(--font-color);
 	margin-right: 1.5rem;
 	transform: translateY(1px);
+	padding: 0.3rem 0.6rem;
+	border-radius: 0.5rem;
+	background-color: var(--third-bg-color);
 }
 
 .fullscreen-switch i {
 	font-size: 1.8rem;
 	text-shadow: 0px 0px 1px var(--primary-font-color);
 	opacity: 0.7;
+}
+
+@media screen and (max-width: 500px) {
+	.fullscreen-switch {
+		margin-right: 0.8rem;
+	}
 }

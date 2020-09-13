@@ -11,8 +11,12 @@
 	transition: background-color 0.3s ease;
 	max-width: 1366px;
 	margin: 0 auto;
+	justify-content: space-between;
 }
 
+.coding-img2 {
+	display: none;
+}
 
 .pbtn {
     background-color: transparent;
@@ -28,7 +32,13 @@
     cursor: pointer;
     transition: all .2s ease-in-out;
     margin-top: 1rem;
-    font-family: ibmplexsans;
+    font-family: Nunito;
+    display: inline-block;
+  	animation-name: pulse;
+	animation-timing-function: ease-in-out;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
 }
 
 .pbtn:hover {
@@ -63,17 +73,17 @@
 .ws-left h4 {
 	margin: 1rem 0;
 	font-size: 2.2rem;
-
 }
 
 .ifex-name {
-	/*font-variant: small-caps;*/
 	font-family: colonna;
 	font-weight: 500;
-	/*background-color: green;*/
 	margin-top: 0.2rem;
-	/*font-size: calc(30px + (55-30) * ((100vw - 300px) / (1600 - 300)));*/
 	font-size: 7rem;
+}
+
+.coding-img {
+	width: 30rem;
 }
 
 .cta-wrapper {
@@ -105,4 +115,219 @@
 .tool-link a:hover {
 	text-decoration: underline;
 	color: var(--primary-font-color);
+}
+
+.wave-emoji {
+	display: inline-block;
+	transform: rotate(10deg);
+	transform-origin: 100% 100%;
+	animation-name: waveanim;
+	animation-duration: .3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes waveanim {
+	0% {
+		transform: rotate(-5deg);
+	},
+	100% {
+		transform: rotate(35deg);
+	}
+	
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+/*>>>>>>>>>MEDIA QUERIES<<<<<<<<<< */
+
+@media screen and (max-width: 1200px){
+	.ifex-name {
+		font-size: 6rem;
+	}
+}
+
+@media screen and (max-width: 1138px) {
+	.coding-img {
+		width: 25rem;
+	}
+
+	.ws-right {
+		width: 35%;
+	}
+
+	.ws-left {
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 1053px) {
+	.ws-right {
+		padding-right: 2rem;
+	}
+
+	.ws-left {
+		padding-left: 2rem;
+	}
+
+
+
+}
+
+@media screen and (max-width: 1023px) {
+    .ws-left h4 {
+		margin: 1rem 0;
+		font-size: 2rem;
+
+	}
+}
+
+@media screen and (max-width: 926px) {
+	.coding-img {
+		width: 25rem;
+	}
+
+	.ws-right {
+		width: 32%;
+	}
+
+	.ws-left {
+		width: 66%;
+	}
+
+	.ifex-name {
+		font-size: 5rem;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	.welcome-section {
+		padding: 0 4rem;
+	}
+
+}
+
+@media  screen and (max-width: 779px) {
+	.ws-right {
+		padding-right: 0rem;
+	}
+
+	.ws-left {
+		padding-left: 0rem;
+	}
+
+}
+
+@media  screen and (max-width: 720px) {
+	.welcome-section {
+		flex-direction: column-reverse;
+		padding-top: 7.5rem;
+		padding-bottom: 7.5rem;
+	}
+
+	.ws-right {
+		width: 100%;
+		height: 0%;
+		justify-content: center;
+		align-items: flex-end;
+	}
+
+	.ws-left {
+		width: 100%;
+		height: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.coding-img {
+		width: 15rem;
+		display: none;
+	}	
+
+	.coding-img2 {
+		display: block;
+		width: 15rem;
+	}
+
+
+	.ws-left p {
+		/*opacity: var(--reduced-opacity2);*/
+		color: var(--less-font-color-opacity);
+		line-height: 2.3rem;
+		/*background-color: green;*/
+		text-align: center;
+		word-break: break;
+		font-size: 1.5rem;
+
+	}
+
+	.ifex-name {
+		text-align: center;
+	}
+
+	.ws-left h4 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 583px) {
+	.ifex-name {
+		font-size: 4rem;
+	}
+
+	.ws-left h4 {
+		font-size: 1.8rem;
+	}
+
+	.coding-img2 {
+		width: 13rem;
+	}
+}
+
+@media screen and (max-width: 419px) {
+	.ifex-name {
+		font-size: 3.5rem;
+	}
+
+	.pbtn {
+		padding: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.coding-img2 {
+		width: 11rem;
+	}
 }

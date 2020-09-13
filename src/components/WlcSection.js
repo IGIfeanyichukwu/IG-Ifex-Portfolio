@@ -11,7 +11,8 @@ return (
 		<div className="welcome-section">
 			<IconFill />
 			<div className="ws-left">
-			<h4 style={{opacity: '0.9'}}>Hey<span role="img" aria-label="wave emoji">👋</span>, I'm </h4>
+			<img src={codingimg} alt="programmer illustration" className="coding-img2" />
+			<h4 style={{opacity: '0.9'}}>Hey<span className="wave-emoji" role="img" aria-label="wave emoji">👋</span>, I'm </h4>
 			<h1 className="ifex-name">I. G Ifeanyichukwu.</h1>
 
 			<h4 className='description'>I'm a creative <b style={{color: 'var(--primary-font-color)', opacity: '0.8'}}>Frontend Developer</b> based in Nigeria.</h4>
@@ -21,7 +22,7 @@ return (
 			</div>
 			</div>
 			<div className="ws-right">
-				<img src={codingimg} alt="programmer illustration" width="300px"/>
+				<img src={codingimg} alt="programmer illustration" className="coding-img" />
 			</div>
 		</div>
 	)

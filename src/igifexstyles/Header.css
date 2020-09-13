@@ -21,7 +21,9 @@
 
 .main-header:after {
 	content: '';
-	background: linear-gradient(90deg,rgba(0,0,0,0.0), var(--font-color), rgba(0,0,0,0.0));
+	/*background: linear-gradient(90deg,rgba(0,0,0,0.0), var(--font-color), var(--font-color), var(--font-color), rgba(0,0,0,0.0));*/
+	/*background-color: var(--font-color);*/
+	opacity: 0.7;
 	display: block;
 	width: 90%;
 	position: absolute;
@@ -240,4 +242,17 @@
     .menu-btn.open .menu-btn-burger:after {
 	transform: rotate(-45deg) translate(35px, 35px);
 	background: white;
+}
+
+/*>>>>>>>>>MEDIA QUERIES<<<<<<<<<<*/
+
+
+@media screen and (max-width: 1053px) {
+	.main-header .logo {
+		padding-left: 2rem;
+	}
+
+	.main-header-nav {
+		padding-right: 2rem;
+	}
 }

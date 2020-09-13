@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import BottomNav from './BottomNav';
 import AllProjects from './AllProjects';
 import '../igifexstyles/ProjectSection.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
  const ProjectSection = () => {
 

@@ -84,10 +84,10 @@ return (
                </div>  
                <div className="social-links">
                  <ul>
-                   <li><a href="https://github.com/IGIfeanyichukwu"><i className="fab fa-github"></i></a></li>
-                   <li><a href="https://codepen.io/IGIfeanyichukwu"><i className="fab fa-codepen"></i></a></li>
-                   <li><a href="https://twiiter.com/IGIfeanyichukwu"><i className="fab fa-twitter"></i></a></li>
-                   <li><a href="https://linkedin.com/in/IGIfeanyichukwu"><i className="fab fa-linkedin"></i></a></li>
+                   <li><a href="https://github.com/IGIfeanyichukwu" target="_blank"><i className="fab fa-github"></i></a></li>
+                   <li><a href="https://codepen.io/IGIfeanyichukwu" target="_blank"><i className="fab fa-codepen"></i></a></li>
+                   <li><a href="https://twiiter.com/IGIfeanyichukwu" target="_blank"><i className="fab fa-twitter"></i></a></li>
+                   <li><a href="https://linkedin.com/in/IGIfeanyichukwu" target="_blank"><i className="fab fa-linkedin"></i></a></li>
                  </ul>
                </div>
            </nav>

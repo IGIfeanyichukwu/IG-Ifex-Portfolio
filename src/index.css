@@ -23,6 +23,18 @@
     src: url("./igifexstyles/fonts/colonna.ttf");
 }
 
+@font-face {
+    font-family: OpenSans;
+    src: url("./igifexstyles/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("./igifexstyles/fonts/Nunito-Regular.ttf");
+}
+
+
+
 /*
 @font-face {
     font-family: goudy;
@@ -48,7 +60,6 @@
     --primary-font-color: rgba(238, 0, 11, 1);
     --bg-color: rgb(0, 0, 0);
     --rendered-icons-opacity: 0.15;
-    /*--secondary-bg-color: rgba(34, 35, 39);*/
     --secondary-bg-color: rgba(15, 15, 15);
     --switch-shadow: rgba(238, 0, 11, 1);
     --reduced-opacity: 0.7;
@@ -56,6 +67,10 @@
     --reduced-opacity3: 0.9;
     --less-font-color-opacity: rgba(255, 255, 255, 0.6);
     --less-font-color-opacity2: rgba(255, 255, 255, 0.65);
+    --third-bg-color: rgba(0, 0, 0, 0.6);
+    --forth-bg-color: rgba(0, 0, 0, 0.8);
+    --rendered-icons-opacity2: 0.15;
+
 
 }
 [data-theme="light"] {
@@ -63,13 +78,16 @@
     --primary-font-color: rgba(238, 0, 11, 1);
     --bg-color: #fff;
     --rendered-icons-opacity: 0.5;
-    --secondary-bg-color: rgba(220, 220, 220);
+    --secondary-bg-color: rgba(235, 235, 235);
     --switch-shadow: yellow;
     --reduced-opacity: 0.8;
     --reduced-opacity2: 0.7;
     --reduced-opacity3: 0.9;
     --less-font-color-opacity: rgba(0, 0, 0, 0.7);
     --less-font-color-opacity2: rgba(0, 0, 0, 0.8);
+    --third-bg-color: rgba(255, 255, 255);
+    --forth-bg-color: rgba(255, 255, 255, 0.7);
+    --rendered-icons-opacity2: 0.35;
 }
 
 
@@ -92,10 +110,16 @@ html a {
 
 body {
 	font-size: 1.8rem;
-	font-family: humanstbt;
+    font-family: humanstbt;
+    /*font-family: OpenSans;*/
+	/*font-family: Nunito;*/
     background-color: var(--bg-color);
     transition: color 0.3s ease;
     text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Nunito;
 }
 
 a {
@@ -121,6 +145,7 @@ p {
 
 .home-main {
     background-color: var(--bg-color);
+    /*position: relative;*/
 }
 
 .main {
@@ -148,7 +173,7 @@ p {
 }
 
 .project-section, .about-section, .contact-section {
-    padding: 7.8rem 12rem 1rem 12rem;
+    padding: 9rem 12rem 1rem 12rem;
     z-index: 3 !important;
     background-color: var(--secondary-bg-color);
     min-height: 100vh;
@@ -157,6 +182,7 @@ p {
     transition: background-color 0.3s ease;
     max-width: 1366px;
     margin: 0 auto;
+    position: relative;
 }
 
 .dash {
@@ -167,7 +193,36 @@ p {
     margin: 0 0 .7rem .5rem;
 }
 
+.project-section:before, .about-section:before, .contact-section:before {
+    content: '';
+    background: linear-gradient(90deg,rgba(0,0,0,0.0), var(--font-color), var(--font-color), var(--font-color), rgba(0,0,0,0.0));
+    opacity: 0.7;
+    display: block;
+    width: 90vw;
+    position: absolute;
+    margin-left: auto;
+    transform: translate(-50%, 7.3rem);
+    height: 0.1rem;
+    left: 50%;
+    z-index: 2;
+    top: 0rem;
+}
 
+.project-section:after, .about-section:after, .contact-section:after {
+    content: '';
+    background: linear-gradient(90deg,rgba(0,0,0,0.0), var(--font-color), var(--font-color), var(--font-color), rgba(0,0,0,0.0));
+    opacity: 0.7;
+    display: block;
+    width: 90vw;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    height: 0.1rem;
+    left: 50%;
+    z-index: 2;
+    bottom: 6.8rem;
+    left: 0;
+}
 
 /*>>>>>SCROLLBAR<<<<<<<*/
 ::-webkit-scrollbar {
@@ -198,3 +253,17 @@ p {
 }*/
 
 
+/*>>>>>MEDIA QUERIES<<<<<<<*/
+
+@media screen and (max-width: 1023px) {
+    body {
+        font-size: 1.6rem;
+        color: orange;
+    }
+}
+
+@media  screen and (max-width: 720px) {
+    .rendered-icons {
+        opacity: var(--rendered-icons-opacity2);
+    }
+}

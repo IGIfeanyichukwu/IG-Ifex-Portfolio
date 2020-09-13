@@ -1,6 +1,8 @@
 .bottom-nav {
 	margin: 2rem 0;
-
+	/*background-color: orange;*/
+	padding: 1.2rem 0 0rem 0;
+	/*border-top: 1px solid var(--less-font-color-opacity);*/
 }
 
 .bf-nav {
