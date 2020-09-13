@@ -2,21 +2,11 @@
 @import url('./igifexstyles/Toastify.css');
 
 /*>>>>>>>>>>FONT DECLARATION<<<<<<<<<<<*/
-/*@font-face {
-    font-family: extoticdmbd;
-    src: url("fonts/extoticdmbd.ttf");
-}*/
 
 @font-face {
     font-family: humanstbt;
     src: url("./igifexstyles/fonts/humanstbt.ttf")
 }
-
-@font-face {
-    font-family: ibmplexsans;
-    src: url("./igifexstyles/fonts/IBMPlexSans-Regular.ttf")
-}
-
 
 @font-face {
     font-family: colonna;
@@ -33,19 +23,6 @@
     src: url("./igifexstyles/fonts/Nunito-Regular.ttf");
 }
 
-
-
-/*
-@font-face {
-    font-family: goudy;
-    src: url("./igifexstyles/fonts/goudos.ttf");
-}
-
-@font-face {
-    font-family: tempus;
-    src: url("./igifexstyles/fonts/TempusSITC.ttf");
-}
-*/
 /*>>>>>>>>END OF FONT DECLARATION<<<<<<<*/
 
 
@@ -110,7 +87,7 @@ html a {
 
 body {
 	font-size: 1.8rem;
-    font-family: humanstbt;
+    font-family: humanstbt, OpenSans, Nunito, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
     /*font-family: OpenSans;*/
 	/*font-family: Nunito;*/
     background-color: var(--bg-color);
@@ -119,7 +96,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Nunito;
+    font-family: Nunito, OpenSans, Nunito, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 a {

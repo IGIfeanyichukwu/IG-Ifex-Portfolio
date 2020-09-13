@@ -19,4 +19,4 @@ jack domleo site context max width:
 
 205, 102, 153
 
-font stack: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+font stack: OpenSans, Nunito, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif
