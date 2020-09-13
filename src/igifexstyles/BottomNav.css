@@ -3,6 +3,19 @@
 	/*background-color: orange;*/
 	padding: 1.2rem 0 0rem 0;
 	/*border-top: 1px solid var(--less-font-color-opacity);*/
+	/*position: relative;*/
+}
+
+.bottom-nav:before {
+	content: '';
+	width: 90vw;
+	height: 0.1rem;
+    background: linear-gradient(90deg,rgba(0,0,0,0.0), var(--font-color), var(--font-color), var(--font-color), rgba(0,0,0,0.0));
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+
 }
 
 .bf-nav {
@@ -15,6 +28,7 @@
 	border: 1px solid var(--primary-font-color);
 	border-radius: .5rem;
 	padding: .3rem .6rem;
+	margin-top: 15px;
 	transition: padding .3s ease;
 	color: var(--font-color);
 	font-size: 1.5rem;

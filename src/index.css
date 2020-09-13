@@ -207,7 +207,7 @@ p {
     z-index: 2;
     top: 0rem;
 }
-
+/*
 .project-section:after, .about-section:after, .contact-section:after {
     content: '';
     background: linear-gradient(90deg,rgba(0,0,0,0.0), var(--font-color), var(--font-color), var(--font-color), rgba(0,0,0,0.0));
@@ -222,7 +222,7 @@ p {
     z-index: 2;
     bottom: 6.8rem;
     left: 0;
-}
+}*/
 
 /*>>>>>SCROLLBAR<<<<<<<*/
 ::-webkit-scrollbar {
