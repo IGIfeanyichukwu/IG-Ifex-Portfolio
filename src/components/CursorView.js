@@ -75,11 +75,20 @@ const init_pointer = (options) => {
     requestAnimationFrame(render)
 }
 
+window.onresize = function() {
+    init_pointer({
+    // pointerColor: "#222",
+    pointerColor: "var(--primary-font-color)",
+    ringSize: window.innerWidth > 720 ? 10 : 3,
+    ringClickSize: window.innerWidth > 720 ? 5 : 1.5
+});
+}
+
 init_pointer({
     // pointerColor: "#222",
     pointerColor: "var(--primary-font-color)",
-	ringSize: 10,
-	ringClickSize: 5
+	ringSize: window.innerWidth > 720 ? 10 : 3,
+	ringClickSize: window.innerWidth > 720 ? 5 : 1.5
 });
 
 

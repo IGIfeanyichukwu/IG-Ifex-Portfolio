@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import iabImg from '../igifexstyles/images/iab.jpg';
+// import iabImg from '../igifexstyles/images/iab.jpg';
 import IfexPortHomeImg from '../igifexstyles/images/project-images/IG-Ifex-Site-Img.png';
 import brPrevierImg from '../igifexstyles/images/project-images/border-radius-previewer-img.png';
 
@@ -68,7 +68,7 @@ const AllProjects = () => {
 	return theProjects.map(function(project){
 		if(project.githubLink !== '' && project.liveLink === '') {
 		return (
-			<li data-aos="fade-up" className="" >
+			<li data-aos="fade-up" className="" key={project.id} >
 				<img src={project.image} alt={project.imgAlt} />
 				<div>
 					<div>
@@ -87,7 +87,7 @@ const AllProjects = () => {
 		)
 	} else if(project.githubLink === '' && project.liveLink !=='') {
 				return (
-			<li data-aos="fade-up" className="">
+			<li data-aos="fade-up" className="" key={project.id}>
 				<img src={project.image} alt={project.imgAlt} title="an image" />
 				<div>
 					<div>
@@ -104,7 +104,7 @@ const AllProjects = () => {
 		)
 	} else if(project.githubLink === '' && project.liveLink ==='') {
 				return (
-			<li data-aos="fade-up" className="">
+			<li data-aos="fade-up" className="" key={project.id}>
 				<img src={project.image} alt={project.imgAlt} />
 				<div>
 					<div>
@@ -120,7 +120,7 @@ const AllProjects = () => {
 		)
 	} else {
 				return (
-			<li data-aos="fade-up" className="">
+			<li data-aos="fade-up" className="" key={project.id}>
 				<img src={project.image} alt={project.imgAlt} />
 				<div>
 					<div>

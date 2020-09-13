@@ -102,7 +102,7 @@ const Tools = () => {
 	}
 
 	return allTools.map((tool) => (
-			<li data-aos="fade-up">
+			<li data-aos="fade-up" key={tool.id}>
 				<img src={tool.logo} alt="" style={imgStyle} />
 				<p>{tool.name}</p>
 			</li>

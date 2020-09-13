@@ -37,7 +37,7 @@
 	height: auto;
 	max-width: 100%;
 	object-fit: cover;
-	transition: all .3s ease;
+	transition: all 0.3s ease;
 	display: block;
 }
 
@@ -81,7 +81,7 @@
 	border-radius: 0.6rem;
 	background-color: var(--font-color);
 	font-size: 1.5rem;
-	transition: all .2s ease;
+	transition: all 0.2s ease;
 }
 
 .project-list li div div:nth-child(2) a:hover {
