@@ -7,7 +7,7 @@ import brPrevierImg from '../igifexstyles/images/project-images/border-radius-pr
 
 const AllProjects = () => {
 
-	 const [theProjects, setTheProjects] = useState([
+	 const [ theProjects ] = useState([
     {
     	id: 1,
     	name: 'IG-Ifex Portfolio Site',
@@ -29,7 +29,7 @@ const AllProjects = () => {
     	image: brPrevierImg,
     	imageAlt: 'Screenshot of Border-Radius Previewer Environment',
     	imageTitle: ''
-    },
+    }/*,
     {
     	id: 3,
     	name: 'Third Project',
@@ -62,13 +62,13 @@ const AllProjects = () => {
     	image: iabImg,
     	imageAlt: '',
     	imageTitle: ''
-    }
+    }*/
  	]);
 
 	return theProjects.map(function(project){
 		if(project.githubLink !== '' && project.liveLink === '') {
 		return (
-			<li className="" >
+			<li data-aos="fade-up" className="" >
 				<img src={project.image} alt={project.imgAlt} />
 				<div>
 					<div>
@@ -79,7 +79,7 @@ const AllProjects = () => {
 					<div>
 
 
-					<a href={project.githubLink} target="_blank"><i className="fas fa-code-branch"> </i> Code</a>
+					<a href={project.githubLink} target="_blank" rel="noopener noreferrer"><i className="fas fa-code-branch"> </i> Code</a>
 					</div>
 					
 				</div>
@@ -87,7 +87,7 @@ const AllProjects = () => {
 		)
 	} else if(project.githubLink === '' && project.liveLink !=='') {
 				return (
-			<li className="">
+			<li data-aos="fade-up" className="">
 				<img src={project.image} alt={project.imgAlt} title="an image" />
 				<div>
 					<div>
@@ -96,7 +96,7 @@ const AllProjects = () => {
 						<p>Tech used: {project.tech}</p>
 					</div>
 					<div>
-					<a href={project.liveLink} target="_blank"><i className="far fa-eye"></i> View</a>
+					<a href={project.liveLink} target="_blank" rel="noopener noreferrer"><i className="far fa-eye"></i> View</a>
 					</div>
 					
 				</div>
@@ -104,7 +104,7 @@ const AllProjects = () => {
 		)
 	} else if(project.githubLink === '' && project.liveLink ==='') {
 				return (
-			<li className="">
+			<li data-aos="fade-up" className="">
 				<img src={project.image} alt={project.imgAlt} />
 				<div>
 					<div>
@@ -120,7 +120,7 @@ const AllProjects = () => {
 		)
 	} else {
 				return (
-			<li className="">
+			<li data-aos="fade-up" className="">
 				<img src={project.image} alt={project.imgAlt} />
 				<div>
 					<div>
@@ -129,9 +129,9 @@ const AllProjects = () => {
 						<p>Tech used: {project.tech}</p>
 					</div>
 					<div>
-					<a href={project.liveLink} target="_blank"><i className="far fa-eye"></i> View</a>
+					<a href={project.liveLink} target="_blank" rel="noopener noreferrer"><i className="far fa-eye"></i> View</a>
 
-					<a href={project.githubLink} target="_blank"><i className="fas fa-code-branch"> </i> Code</a>
+					<a href={project.githubLink} target="_blank" rel="noopener noreferrer"><i className="fas fa-code-branch"> </i> Code</a>
 					</div>
 					
 				</div>

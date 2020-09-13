@@ -91,3 +91,41 @@
 .project-list li:hover img {
 	/*object-fit: fill;*/
 }
+
+
+
+/*>>>>>>>>>>MEDIA QUERIES<<<<<<<<<<<*/
+@media screen and (max-width: 1180px) {
+	.project-list {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.project-list {
+		grid-template-columns: 1fr;
+	}
+
+	.project-list li {
+		margin: 0 8rem;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	.project-list li {
+		margin: 0 5rem;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.project-list li {
+		margin: 0 2rem;
+	}
+}
+
+
+@media screen and (max-width: 420px) {
+	.project-list li {
+		margin: 0;
+	}
+}

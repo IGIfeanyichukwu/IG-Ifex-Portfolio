@@ -95,3 +95,10 @@
     transform: translate3d(8px, 0, 0);
   }
 }
+
+
+@media screen and (max-width: 1023px) {
+	.bf-nav a {
+		font-size: 1.4rem;
+	}
+}

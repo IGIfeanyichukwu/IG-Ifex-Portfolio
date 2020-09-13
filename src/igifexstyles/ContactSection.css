@@ -7,7 +7,7 @@
 
 .contact-section > p {
 	opacity: 0.8;
-	font-size: 1.8rem;
+	/*font-size: 1.8rem;*/
 }
 
 .help-out {
@@ -112,4 +112,55 @@
 
 .foot-text i {
 	opacity: 0.9;
+}
+
+
+/*>>>>>>>>>>>>MEDIA QUERIES<<<<<<<<<<<*/
+@media screen and (max-width: 700px) {
+	.contact-info {
+		flex-direction: column;
+	}
+
+	.contact-info div:nth-child(2) {
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.contact-info div p {
+	font-size: 3rem;
+	margin: 1rem 0;
+	display: inline-block;
+}
+
+}
+
+@media screen and (max-width: 685px) {
+	.reach-out {
+		font-size: 4rem;
+	}
+	
+}
+
+@media screen and (max-width: 500px) {
+	.contact-info div p {
+		font-size: 2.5rem;
+	}
+
+	.reach-out {
+		font-size: 3.8rem;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+	.reach-out {
+		font-size: 3.4rem;
+	}
+}
+
+
+@media screen and (max-width: 330px) {
+	.help-out {
+		font-size: 2rem;
+	}	
 }

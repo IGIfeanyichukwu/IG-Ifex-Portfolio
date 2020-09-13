@@ -70,24 +70,26 @@ return (
            <div style={getNavStyle()} className="nav-bg nav-bg1"></div>
            <div style={getNavStyle()} className="nav-bg nav-bg2"></div>
            <nav style={getNavStyle()}>
-               <ul className="nav-left">
-               	<li onClick={handleMenuClick}><NavLink to="/">Home</NavLink></li>
-               	<li onClick={handleMenuClick}><NavLink to="/projects">Projects</NavLink></li>
-               	<li onClick={handleMenuClick}><NavLink to="/about">About </NavLink></li>
-               </ul>
+               <div className="nav-left">
+               <ul>
+               	<li><NavLink onClick={handleMenuClick} to="/">Home</NavLink></li>
+               	<li><NavLink onClick={handleMenuClick} to="/projects">Projects</NavLink></li>
+               	<li><NavLink onClick={handleMenuClick} to="/about">About </NavLink></li>
+                 </ul>
+               </div>
                <div className="nav-right">
                  <ul>
-                  <li onClick={handleMenuClick}><NavLink to="/contact">Contact</NavLink></li>
+                  <li><NavLink onClick={handleMenuClick} to="/contact">Contact</NavLink></li>
                    <li><Link to="/blog">Blog</Link></li>
                    <li><NavLink to="/resume">Résumé</NavLink></li>
                  </ul>
                </div>  
                <div className="social-links">
                  <ul>
-                   <li><a href="https://github.com/IGIfeanyichukwu" target="_blank"><i className="fab fa-github"></i></a></li>
-                   <li><a href="https://codepen.io/IGIfeanyichukwu" target="_blank"><i className="fab fa-codepen"></i></a></li>
-                   <li><a href="https://twiiter.com/IGIfeanyichukwu" target="_blank"><i className="fab fa-twitter"></i></a></li>
-                   <li><a href="https://linkedin.com/in/IGIfeanyichukwu" target="_blank"><i className="fab fa-linkedin"></i></a></li>
+                   <li><a href="https://github.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+                   <li><a href="https://codepen.io/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a></li>
+                   <li><a href="https://twiiter.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
+                   <li><a href="https://linkedin.com/in/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
                  </ul>
                </div>
            </nav>

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import alogo from '../igifexstyles/images/iab.jpg';
 import htmlLogo from '../igifexstyles/images/html.png';
 import cssLogo from '../igifexstyles/images/css.png';
 import sassLogo from '../igifexstyles/images/sass.svg';
@@ -19,7 +18,7 @@ import jqueryLogo from '../igifexstyles/images/jquery.svg';
 
 
 const Tools = () => {
-	const [allTools, setAllTools] = useState([
+	const [ allTools ] = useState([
 	{
 		id: 1,
 		logo: htmlLogo,

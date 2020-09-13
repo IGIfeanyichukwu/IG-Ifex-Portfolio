@@ -33,10 +33,10 @@ const allRenderedicons = document.querySelectorAll('.rendered-icons');
 			<h3>Connect with me:</h3>
 				<div className="connect-links">
                  <ul>
-                   <li><a href="https://github.com/IGIfeanyichukwu" target="_blank"><i className="fab fa-github"></i></a></li>
-                   <li><a href="https://codepen.io/IGIfeanyichukwu" target="_blank"><i className="fab fa-codepen"></i></a></li>
-                   <li><a href="https://twiiter.com/IGIfeanyichukwu" target="_blank"><i className="fab fa-twitter"></i></a></li>
-                   <li><a href="https://linkedin.com/in/IGIfeanyichukwu" target="_blank"><i className="fab fa-linkedin"></i></a></li>
+                   <li><a href="https://github.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+                   <li><a href="https://codepen.io/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a></li>
+                   <li><a href="https://twiiter.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
+                   <li><a href="https://linkedin.com/in/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
                  </ul>
                </div>
                <p className="foot-text">&copy; 2020 - Ifex | <i className="fas fa-code"></i> with <span role="img" aria-label="heart emoji">❤️</span> | All rights reserved.</p>

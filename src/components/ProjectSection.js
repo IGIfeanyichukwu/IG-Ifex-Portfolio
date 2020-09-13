@@ -7,6 +7,13 @@ import 'aos/dist/aos.css'
 
  const ProjectSection = () => {
 
+useEffect(() => {
+	Aos.init({
+		// duration: 1000
+	});
+}, [])
+
+
 const allRenderedicons = document.querySelectorAll('.rendered-icons');
  if(allRenderedicons.length > 0) { 
    allRenderedicons.forEach(icon => {

@@ -36,3 +36,33 @@
 	text-align: center;
 	/*background-color: orange;*/
 }
+
+
+/*>>>>>>>>>>>MEDIA QUERIES<<<<<<<<<<<*/
+
+
+@media screen and (max-width: 1000px) {
+	.tool-list {
+		grid-template-columns: 1fr 1fr 1fr;
+	}	
+}
+
+@media screen and (max-width: 620px) {
+	.tool-list {
+		grid-template-columns: 1fr 1fr;
+	}	
+}
+
+@media screen and (max-width: 420px) {
+	.tool-list {
+		grid-template-columns: 1fr 1fr;
+		margin: 3rem 2rem 0 2rem;
+	}	
+}
+
+@media screen and (max-width: 330px) {
+	.tool-list {
+		grid-template-columns: 1fr;
+		margin: 3rem 2rem 0 2rem;
+	}	
+}

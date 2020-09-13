@@ -331,3 +331,23 @@
 		width: 11rem;
 	}
 }
+
+@media screen and (max-width: 514px) and (max-height: 578px) {
+	.pbtn {
+		margin: 0;
+	}
+
+	.welcome-section {
+		padding-bottom: 2rem;
+	}
+}
+
+@media screen and (max-width: 527px) and (max-height: 525px) {
+	.ws-left h4 {
+		margin: 0.5rem 0;
+	}
+
+	.ws-left {
+		padding-bottom: 0;
+	}
+}

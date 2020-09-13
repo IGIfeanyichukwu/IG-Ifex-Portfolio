@@ -16,5 +16,6 @@
 @media screen and (max-width: 500px) {
 	.fullscreen-switch {
 		margin-right: 0.8rem;
+		transform: translateY(0px);
 	}
 }
