@@ -39,7 +39,7 @@
 }
 
 .bf-nav a:nth-child(2):hover {
-	padding: .3rem .6rem .3rem 1rem;
+	padding: .3rem 1rem .3rem .6rem;
 }
 
 .bf-nav a i {

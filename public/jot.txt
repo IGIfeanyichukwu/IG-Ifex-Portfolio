@@ -12,8 +12,7 @@ font-stack: "Alegreya Sans", sans-serif
 THINGS TO DO
 - comprehensive font stacking
 - 
-
-jack domleo site context max width:
+site context max width:
 62.5em.
 
 
