@@ -25,7 +25,7 @@ const allRenderedicons = document.querySelectorAll('.rendered-icons');
 
 	return (
 		<div className="project-section">
-			<h2 className="ps-head-txt">Featured Projects<span className="dash"></span></h2>
+			<h2 data-aos="fade-right" className="ps-head-txt">Featured Projects<span className="dash"></span></h2>
 			<p>Below are some of the fun projects I've worked on.</p>
 			<ul className='project-list'>
 				<AllProjects />

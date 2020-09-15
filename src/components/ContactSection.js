@@ -1,8 +1,17 @@
-import React from 'react';
+import React, {useEffect } from 'react';
 import BottomNav from './BottomNav';
 import '../igifexstyles/ContactSection.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const ContactSection = () => {
+
+	useEffect(() => {
+	Aos.init({
+		// duration: 1000
+	});
+}, [])
+
 
 const allRenderedicons = document.querySelectorAll('.rendered-icons');
  if(allRenderedicons.length > 0) { 
@@ -13,7 +22,7 @@ const allRenderedicons = document.querySelectorAll('.rendered-icons');
 
 	return (
 		<div className="contact-section">
-			<h2 className="cs-head-txt">Contact<span className="dash"></span></h2>
+			<h2 data-aos="fade-right" className="cs-head-txt">Contact<span className="dash"></span></h2>
 			<p>Do you have a project in mind? Do you have a project that needs a fix? Do you want me to collaborate with you in a project or want to get to know me more?</p>
 			<p>I'm currently <b>open</b> to jobs and opportunites.</p>
 
@@ -33,10 +42,10 @@ const allRenderedicons = document.querySelectorAll('.rendered-icons');
 			<h3>Connect with me:</h3>
 				<div className="connect-links">
                  <ul>
-                   <li><a href="https://github.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
-                   <li><a href="https://codepen.io/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a></li>
-                   <li><a href="https://twiiter.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
-                   <li><a href="https://linkedin.com/in/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
+                   <li data-aos="fade-right"><a href="https://github.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+                   <li data-aos="fade-up-right"><a href="https://codepen.io/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a></li>
+                   <li data-aos="fade-up-left"><a href="https://twiiter.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
+                   <li data-aos="fade-left"><a href="https://linkedin.com/in/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
                  </ul>
                </div>
                <p className="foot-text">&copy; 2020 - Ifex | <i className="fas fa-code"></i> with <span role="img" aria-label="heart emoji">❤️</span> | All rights reserved.</p>
