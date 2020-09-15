@@ -22,7 +22,7 @@ return (
 			</div>
 			</div>
 			<div className="ws-right">
-				<img src={codingimg} alt="programmer illustration" className="coding-img" />
+				<img src={codingimg} alt="programmer illustration" className="coding-img" draggable="false" />
 			</div>
 		</div>
 	)

@@ -19,3 +19,9 @@ site context max width:
 205, 102, 153
 
 font stack: OpenSans, Nunito, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif
+
+Some other responsiveness issues
+
+320 X 480 -> both portrait and landscape (frontpage)
+736 X 414 -> landscape (frontpage)
+812 X 375 -> landscape (frontpage)

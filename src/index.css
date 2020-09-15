@@ -116,7 +116,6 @@ p {
 }
 
 .header-wrapper {
-    background-color: orange;
     width: 100%;
 }
 
@@ -259,7 +258,6 @@ p {
 @media screen and (max-width: 1023px) {
     body {
         font-size: 1.6rem;
-        color: orange;
     }
 }
 
