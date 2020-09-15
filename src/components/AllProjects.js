@@ -69,7 +69,7 @@ const AllProjects = () => {
 		if(project.githubLink !== '' && project.liveLink === '') {
 		return (
 			<li data-aos="fade-up" className="" key={project.id} >
-				<img src={project.image} alt={project.imgAlt} />
+				<img src={project.image} alt={project.imgAlt} draggable="false" />
 				<div>
 					<div>
 						<h4>{project.name}</h4>
@@ -88,7 +88,7 @@ const AllProjects = () => {
 	} else if(project.githubLink === '' && project.liveLink !=='') {
 				return (
 			<li data-aos="fade-up" className="" key={project.id}>
-				<img src={project.image} alt={project.imgAlt} title="an image" />
+				<img src={project.image} alt={project.imgAlt} draggable="false"  />
 				<div>
 					<div>
 						<h4>{project.name}</h4>
@@ -105,7 +105,7 @@ const AllProjects = () => {
 	} else if(project.githubLink === '' && project.liveLink ==='') {
 				return (
 			<li data-aos="fade-up" className="" key={project.id}>
-				<img src={project.image} alt={project.imgAlt} />
+				<img src={project.image} alt={project.imgAlt} draggable="false" />
 				<div>
 					<div>
 						<h4>{project.name}</h4>
@@ -121,7 +121,7 @@ const AllProjects = () => {
 	} else {
 				return (
 			<li data-aos="fade-up" className="" key={project.id}>
-				<img src={project.image} alt={project.imgAlt} />
+				<img src={project.image} alt={project.imgAlt} draggable="false" />
 				<div>
 					<div>
 						<h4>{project.name}</h4>
