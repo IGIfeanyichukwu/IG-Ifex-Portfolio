@@ -80,8 +80,8 @@ return (
                <div className="nav-right">
                  <ul>
                   <li><NavLink onClick={handleMenuClick} to="/contact">Contact</NavLink></li>
-                   <li><Link to="/blog">Blog</Link></li>
-                   <li><NavLink to="/resume">Résumé</NavLink></li>
+                   <li><a href="https://ig-ifex.hashnode.dev" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                   <li><a href="javascript:void(0)">Résumé</a></li>
                  </ul>
                </div>  
                <div className="social-links">

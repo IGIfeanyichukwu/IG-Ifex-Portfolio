@@ -30,6 +30,7 @@ const allRenderedicons = document.querySelectorAll('.rendered-icons');
 			<ul className='project-list'>
 				<AllProjects />
 			</ul>
+			<p>Find more of my projects on <a style={{color: "var(--font-color)", textDecoration: 'underline'}} href="https://github.com/IGIfeanyichuwku" target="_blank" rel="noopener noreferrer">github</a>.</p>
 
 			<BottomNav forward="about" />
 		</div>
