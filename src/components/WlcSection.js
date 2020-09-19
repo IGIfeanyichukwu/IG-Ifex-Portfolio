@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 const WlcSection = () => {
 	const [isAnimatable, setIsAnimatable] = useState(true);
 
-window.setTimeout(function () { setIsAnimatable(false); console.log("state is ", isAnimatable)}, 4500)
+window.setTimeout(function () { setIsAnimatable(false); console.log("state is ", isAnimatable)}, 4500);
 
 	useEffect(() => {
 	Aos.init({});

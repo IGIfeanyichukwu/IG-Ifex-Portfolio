@@ -35,62 +35,62 @@ const Tools = () => {
 		name: 'SASS(SCSS)'
 	},
 	{
-		id: 2,
+		id: 4,
 		logo: bootstrapLogo,
 		name: 'Bootstrap'
 	},
 	{
-		id: 2,
+		id: 5,
 		logo: tailwindLogo,
 		name: 'Tailwind'
 	},
 	{
-		id: 3,
+		id: 6,
 		logo: jsLogo,
 		name: 'JavaScript'
 	},
 	{
-		id: 4,
+		id: 7,
 		logo: jqueryLogo,
 		name: 'jQuery'
 	},
 	{
-		id: 5,
+		id: 8,
 		logo: reactLogo,
 		name: 'React'
 	},
 	{
-		id: 6,
+		id: 9,
 		logo: typescriptLogo,
 		name: 'TypeScript'
 	},
 	{
-		id: 7,
+		id: 10,
 		logo: phpLogo,
 		name: 'PHP'
 	},
 	{
-		id: 8,
+		id: 11,
 		logo: mysqlLogo,
 		name: 'MySQL'
 	},
 	{
-		id: 9,
+		id: 12,
 		logo: wordpressLogo,
 		name: 'Wordpress'
 	},
 	{
-		id: 10,
+		id: 13,
 		logo: responsiveLogo,
 		name: 'Responsive Design'
 	},
 	{
-		id: 11,
+		id: 14,
 		logo: codeLogo,
 		name: 'PSD to HTML'
 	},
 	{
-		id: 12,
+		id: 15,
 		logo: gitLogo,
 		name: 'Git'
 	}

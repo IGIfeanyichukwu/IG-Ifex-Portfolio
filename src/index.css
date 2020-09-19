@@ -36,7 +36,7 @@
     --font-color: rgba(255, 255, 255, 1);
     --primary-font-color: rgba(238, 0, 11, 1);
     --bg-color: rgb(0, 0, 0);
-    --rendered-icons-opacity: 0.15;
+    --rendered-icons-opacity: 0.2;
     --secondary-bg-color: rgba(15, 15, 15);
     --switch-shadow: rgba(238, 0, 11, 1);
     --reduced-opacity: 0.7;
@@ -46,7 +46,7 @@
     --less-font-color-opacity2: rgba(255, 255, 255, 0.65);
     --third-bg-color: rgba(0, 0, 0, 0.6);
     --forth-bg-color: rgba(0, 0, 0, 0.8);
-    --rendered-icons-opacity2: 0.15;
+    --rendered-icons-opacity2: 0.2;
 
 
 }

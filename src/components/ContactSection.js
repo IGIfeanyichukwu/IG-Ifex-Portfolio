@@ -1,10 +1,14 @@
-import React, {useEffect } from 'react';
+import React, {useEffect, useState } from 'react';
 import BottomNav from './BottomNav';
 import '../igifexstyles/ContactSection.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 
 const ContactSection = () => {
+
+ 	const [isAnimatable, setIsAnimatable] = useState(true);
+
+window.setTimeout(function () { setIsAnimatable(false); }, 4500);	
 
 	useEffect(() => {
 	Aos.init({
@@ -22,7 +26,7 @@ const allRenderedicons = document.querySelectorAll('.rendered-icons');
 
 	return (
 		<div className="contact-section">
-			<h2 data-aos="fade-right" className="cs-head-txt">Contact<span className="dash"></span></h2>
+			<h2 data-aos={isAnimatable ? "fade-right" : ""} className="cs-head-txt">Contact<span className="dash"></span></h2>
 			<p>Do you have a project in mind? Do you have a project that needs a fix? Do you want me to collaborate with you in a project or want to get to know me more?</p>
 			<p>I'm currently <b>open</b> to jobs and opportunites.</p>
 

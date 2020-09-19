@@ -86,10 +86,10 @@ return (
                </div>  
                <div className="social-links">
                  <ul>
-                   <li><a href="https://github.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
-                   <li><a href="https://codepen.io/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a></li>
-                   <li><a href="https://twitter.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
-                   <li><a href="https://linkedin.com/in/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
+                   <li><a href="https://github.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} ><i className="fab fa-github"></i></a></li>
+                   <li><a href="https://codepen.io/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} ><i className="fab fa-codepen"></i></a></li>
+                   <li><a href="https://twitter.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} ><i className="fab fa-twitter"></i></a></li>
+                   <li><a href="https://linkedin.com/in/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} ><i className="fab fa-linkedin"></i></a></li>
                  </ul>
                </div>
            </nav>

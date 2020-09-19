@@ -5,6 +5,7 @@
 	position: absolute;
 	color: rgba(238, 0, 11, 0.7);
 	z-index: 6;
+	/*background-color: green;*/
 }
 
 .make-fixed {
@@ -45,7 +46,7 @@
 .header-txt {
 	/*background-color: orange;*/
 	font-family: colonna;
-	font-weight: 600;
+	/*font-weight: 600;*/
 	font-size: 3.7rem;
 	padding: 0;
 	z-index: 5;
