@@ -148,6 +148,7 @@
 	list-style: none;
 	font-size: 2.5rem;
 	transition: all .2s ease;
+	margin: 0 2rem;
 }
 
 .social-links ul li:hover {
@@ -161,7 +162,6 @@
 .social-links ul {
 	display: flex;
 	justify-content: center;
-	gap: 2rem;
 }
 
 

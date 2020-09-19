@@ -69,7 +69,7 @@
 .project-list li div div:nth-child(2) {
 	/*background-color: red;*/
 	display: flex;
-	grid-gap: 2rem;
+	/*grid-gap: 2rem;*/
 }
 
 .project-list li div div:nth-child(2) a {
@@ -82,6 +82,7 @@
 	background-color: var(--font-color);
 	font-size: 1.5rem;
 	transition: all 0.2s ease;
+	margin-right: 2rem;
 }
 
 .project-list li div div:nth-child(2) a:hover {

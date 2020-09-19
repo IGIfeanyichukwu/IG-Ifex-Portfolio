@@ -44,7 +44,7 @@ const allRenderedicons = document.querySelectorAll('.rendered-icons');
                  <ul>
                    <li data-aos="fade-right"><a href="https://github.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
                    <li data-aos="fade-up-right"><a href="https://codepen.io/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a></li>
-                   <li data-aos="fade-up-left"><a href="https://twiiter.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
+                   <li data-aos="fade-up-left"><a href="https://twitter.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
                    <li data-aos="fade-left"><a href="https://linkedin.com/in/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
                  </ul>
                </div>

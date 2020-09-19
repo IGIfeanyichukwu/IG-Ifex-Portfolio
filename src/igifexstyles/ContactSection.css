@@ -73,7 +73,7 @@
 
 .connect-links ul {
 	display: flex;
-	gap: 2rem;
+	/*gap: 2rem;*/
 	font-size: 2rem;
 	margin-top: 1.5rem;
 }
@@ -85,6 +85,7 @@
 	padding: 0.3rem 0.6rem;
 	border-radius: 0.5rem;
 	background-color: var(--third-bg-color);
+	margin-right: 2rem;
 }
 
 .connect-links ul li:hover {
