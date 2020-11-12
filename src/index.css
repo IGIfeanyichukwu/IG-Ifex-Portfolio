@@ -34,11 +34,11 @@
 
 :root {
     --font-color: rgba(255, 255, 255, 1);
-    --primary-font-color: rgba(238, 0, 11, 1);
+    --primary-font-color: rgb(1, 196, 71);
     --bg-color: rgb(0, 0, 0);
     --rendered-icons-opacity: 0.2;
     --secondary-bg-color: rgba(15, 15, 15);
-    --switch-shadow: rgba(238, 0, 11, 1);
+    --switch-shadow: rgb(1, 196, 71);
     --reduced-opacity: 0.7;
     --reduced-opacity2: 0.6;
     --reduced-opacity3: 0.9;
@@ -47,15 +47,17 @@
     --third-bg-color: rgba(0, 0, 0, 0.6);
     --forth-bg-color: rgba(0, 0, 0, 0.8);
     --rendered-icons-opacity2: 0.2;
+    --header-color: #fff;
 
 
 }
 [data-theme="light"] {
     --font-color: rgba(0, 0, 0, 1);
-    --primary-font-color: rgba(238, 0, 11, 1);
+    --primary-font-color: rgb(1, 196, 71);
     --bg-color: #fff;
-    --rendered-icons-opacity: 0.5;
-    --secondary-bg-color: rgba(235, 235, 235);
+    --rendered-icons-opacity: 0.25;
+    /*--secondary-bg-color: rgba(235, 235, 235);*/
+    --secondary-bg-color: #eee;
     --switch-shadow: yellow;
     --reduced-opacity: 0.8;
     --reduced-opacity2: 0.7;
@@ -64,7 +66,8 @@
     --less-font-color-opacity2: rgba(0, 0, 0, 0.8);
     --third-bg-color: rgba(255, 255, 255);
     --forth-bg-color: rgba(255, 255, 255, 0.7);
-    --rendered-icons-opacity2: 0.35;
+    --rendered-icons-opacity2: 0.25;
+    --header-color: #000;
 }
 
 

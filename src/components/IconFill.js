@@ -4,7 +4,7 @@ import React, { Fragment } from 'react';
 const IconFill = () => {
 
 
-const colors = ["#E14B5A", "#FFD037", "#575988", "#F7C4A7", "#E60002"];
+const colors = ["#E14B5A", "#FFD037", "#575988", "#F7C4A7", "#01c447"];
 
 const allIcons = ["<i class='fab fa-php'></i>", "<i class='fab fa-git'></i>", "<i class='fab fa-css3'></i>", "<i class='fab fa-html5'></i>", "<i class='fab fa-js'></i>", "<i class='fab fa-linux'></i>", "<i class='fab fa-npm'></i>", "<i class='fab fa-react'></i>", "<i class='fab fa-sass'></i>"]
 

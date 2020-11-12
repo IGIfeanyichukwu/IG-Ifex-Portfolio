@@ -18,6 +18,7 @@
 
 .make-fixed .logo .header-txt {
 	font-weight: 600 !important;
+	color: black !important;
 }
 
 .main-header:after {
@@ -50,6 +51,7 @@
 	font-size: 3.7rem;
 	padding: 0;
 	z-index: 5;
+	color: var(--header-color);
 }
 
 .main-header-nav {
