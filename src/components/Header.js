@@ -81,7 +81,7 @@ return (
                  <ul>
                   <li><NavLink onClick={handleMenuClick} to="/contact">Contact</NavLink></li>
                    <li><a href="https://ig-ifex.hashnode.dev" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} >Blog</a></li>
-                   <li><a href="javascript:void(0)">Résumé</a></li>
+                   <li><a href="https://drive.google.com/file/d/1ItIfjpa0O6TcJpORZ5WKcv8TRusEdTbX/view?usp=sharing" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} >Résumé</a></li>
                  </ul>
                </div>  
                <div className="social-links">
