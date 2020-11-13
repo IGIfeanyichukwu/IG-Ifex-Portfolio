@@ -220,7 +220,7 @@ p {
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #b30000;
+    opacity: 0.8;
 }
 /*
 .scroller {
