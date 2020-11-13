@@ -1,17 +1,45 @@
 import React, { useState } from 'react';
 // import iabImg from '../igifexstyles/images/iab.jpg';
-import IfexPortHomeImg from '../igifexstyles/images/project-images/IG-Ifex-Site-Img.png';
-import brPrevierImg from '../igifexstyles/images/project-images/border-radius-previewer-img.png';
+import IfexPortHomeImg from '../igifexstyles/images/project-images/portfolio-cover.png';
+import brPrevierImg from '../igifexstyles/images/project-images/borderradiuspreviewer-cover.png';
+import cyprobarCover from '../igifexstyles/images/project-images/cyprobar-cover.png';
+import sirimazoneCover from '../igifexstyles/images/project-images/sirimazone-cover.png';
+import colorConverterCover from '../igifexstyles/images/project-images/colorconverter-cover.png';
+import musicEcomUICover from '../igifexstyles/images/project-images/music-ecom-ui-cover.png';
+import wiznugCover from '../igifexstyles/images/project-images/wiznug-cover.png';
+
 
 
 
 const AllProjects = () => {
 
 	 const [ theProjects ] = useState([
-    {
+	{
     	id: 1,
+    	name: 'Cyprobar',
+    	about: 'A lightweight JavaScript libary used for creating circular progress bar. It\'s demo/doc site is built with tailwindCSS.',
+    	tech: 'VanillaJS + Parcel + TailwindCSS',
+    	githubLink: 'https://github.com/IGIfeanyichukwu/cyprobar',
+    	liveLink: 'https://IGIfeanyichukwu.github.io/cyprobar',
+    	image: cyprobarCover,
+    	imgAlt: "view of cyprobar demo site",
+    	imageTitle: 'Cyprobar'
+    },
+    {
+    	id: 2,
+    	name: 'Sirimazone',
+    	about: 'A full stack movie store app with admin panel & content management system built with core PHP',
+    	tech: 'SCSS + JavaScript + jQuery + AJAX + Parcel + PHP + PDO + MySQL',
+    	githubLink: 'https://github.com/IGIfeanyichukwu/sirimazone',
+    	liveLink: '',
+    	image: sirimazoneCover,
+    	imgAlt: "mockup of sirimazone's ui",
+    	imageTitle: 'Sirimazone UI mockup'
+    },
+    {
+    	id: 3,
     	name: 'IG-Ifex Portfolio Site',
-    	about: 'Portfolio Site for I.G Ifeanyichukwu.',
+    	about: 'My portfolio site.',
     	tech: 'React.',
     	githubLink: 'https://github.com/IGIfeanyichukwu/IG-Ifex-Portfolio',
     	liveLink: '',
@@ -20,49 +48,49 @@ const AllProjects = () => {
     	imageTitle: 'I.G Ifex Portfolio Screenshot'
     },
     {
-    	id: 2,
-    	name: 'Border Radius Previewer',
-    	about: 'An app that previews how a border radius will look like and generates the corresponding CSS code for the border radius.',
-    	tech: 'Html + CSS + JavaScript.',
-    	githubLink: 'https://github.com/IGIfeanyichukwu/border-radius-previewer',
-    	liveLink: 'https://IGIfeanyichukwu.github.io/border-radius-previewer',
-    	image: brPrevierImg,
-    	imageAlt: 'Screenshot of Border-Radius Previewer Environment',
-    	imageTitle: ''
-    }/*,
-    {
-    	id: 3,
-    	name: 'Third Project',
-    	about: 'This is the third project',
-    	tech: 'Html + Css',
-    	githubLink: '',
-    	liveLink: '',
-    	image: iabImg,
-    	imageAlt: '',
-    	imageTitle: ''
-    },
-    {
     	id: 4,
-    	name: 'Fourth Project',
-    	about: 'This is the fourth project',
-    	tech: 'Html + Css',
-    	githubLink: 'https://www.google.com',
-    	liveLink: 'https://www.google.com',
-    	image: iabImg,
-    	imageAlt: '',
-    	imageTitle: ''
+    	name: 'Color Converter',
+    	about: 'A web app that converts color values between 5 diff color models',
+    	tech: 'HTML + CSS + VanillaJS',
+    	githubLink: 'https://github.com/IGIfeanyichukwu/colorconverter',
+    	liveLink: 'https://colorconverter.surge.sh',
+    	image: colorConverterCover,
+    	imgAlt: "view of color converter app",
+    	imageTitle: 'Color Converter App'
     },
     {
     	id: 5,
-    	name: 'Fifth Project',
-    	about: 'This is the fifth project',
-    	tech: 'Html + Css',
-    	githubLink: 'https://www.google.com',
-    	liveLink: 'https://www.google.com',
-    	image: iabImg,
-    	imageAlt: '',
-    	imageTitle: ''
-    }*/
+    	name: 'Border Radius Previewer',
+    	about: 'An app that previews how a border radius will look like and generates the corresponding CSS code for the border radius.',
+    	tech: 'Html + CSS + VanillaJS.',
+    	githubLink: 'https://github.com/IGIfeanyichukwu/border-radius-previewer',
+    	liveLink: 'https://borderradiuspreviewer.surge.sh',
+    	image: brPrevierImg,
+    	imageAlt: 'view of border radius previewer app',
+    	imageTitle: 'Border Radius Previewer App'
+    },
+    {
+    	id: 6,
+    	name: 'Wiznug Rest API',
+    	about: 'A restful API for wise quotes from notable individuals.',
+    	tech: 'PHP + MySQL',
+    	githubLink: 'https://github.com/IGIfeanyichukwu/wiznug-rest-api',
+    	liveLink: '',
+    	image: wiznugCover,
+    	imgAlt: "winug rest api cover",
+    	imageTitle: 'Wiznug rest api cover'
+    },
+    {
+    	id: 7,
+    	name: 'Music Ecom UI',
+    	about: 'An implementation of a music ecommerce single page ui.',
+    	tech: 'HTML + SCSS + VanillaJS',
+    	githubLink: 'https://github.com/IGIfeanyichukwu/music-ecom-ui',
+    	liveLink: 'https://music-ecom-ui.surge.sh',
+    	image: musicEcomUICover,
+    	imgAlt: "view of music ecom ui",
+    	imageTitle: 'Music Ecom UI Cover'
+    }
  	]);
 
 	return theProjects.map(function(project){
