@@ -127,7 +127,7 @@
 	transform: rotate(10deg);
 	transform-origin: 100% 100%;
 	animation-name: waveanim;
-	animation-duration: .3s;
+	animation-duration: .6s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
