@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import ProjectSection from '../ProjectSection';
 import { Helmet } from 'react-helmet'
-import siteImg from '../../igifexstyles/images/project-images/IG-Ifex-Site-Img.png'
+// import siteImg from '../../igifexstyles/images/project-images/IG-Ifex-Site-Img.png'
 
 const Projects = () => {
 
@@ -9,7 +9,7 @@ const Projects = () => {
 		title: "Projects - Gideon Idoko",
 		description: "Check out some of the fun projects Ifeanyichukwu Gideon Idoko has worked on.",
 		url: 'https://gideonidoko.netlify.app/projects',
-		image: siteImg
+		image: null
 	};
 
 

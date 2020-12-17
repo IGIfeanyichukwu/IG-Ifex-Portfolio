@@ -64,7 +64,7 @@ return (
 		<header className={menuOpen ? "main-header make-fixed" : "main-header"}>
 			{ /*Main Header*/ }
           <div className="logo">
-           <h1 className="header-txt"></h1> 
+           {/*<h1 className="header-txt"></h1> */ }
            </div>
            <div className="main-header-nav">
            <div style={getNavStyle()} className="nav-bg nav-bg1"></div>

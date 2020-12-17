@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import iabImg from '../igifexstyles/images/iab.jpg';
-import IfexPortHomeImg from '../igifexstyles/images/project-images/portfolio-cover.png';
+// import IfexPortHomeImg from '../igifexstyles/images/project-images/portfolio-cover.png';
 import brPrevierImg from '../igifexstyles/images/project-images/borderradiuspreviewer-cover.png';
 import cyprobarCover from '../igifexstyles/images/project-images/cyprobar-cover.png';
 import sirimazoneCover from '../igifexstyles/images/project-images/sirimazone-cover.png';

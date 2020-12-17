@@ -46,13 +46,13 @@ window.setTimeout(function () { setIsAnimatable(false); }, 4500);
 			<h3>Connect with me:</h3>
 				<div className="connect-links">
                  <ul>
-                   <li data-aos="fade-right"><a href="https://github.com/IamGideonIdoko" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
-                   <li data-aos="fade-up-right"><a href="https://codepen.io/IamGideonIdoko" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a></li>
-                   <li data-aos="fade-up-left"><a href="https://twitter.com/IamGideonIdoko" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
-                   <li data-aos="fade-left"><a href="https://linkedin.com/in/IamGideonIdoko" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
+                   <li data-aos=""><a href="https://github.com/IamGideonIdoko" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+                   <li data-aos=""><a href="https://codepen.io/IamGideonIdoko" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a></li>
+                   <li data-aos=""><a href="https://twitter.com/IamGideonIdoko" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
+                   <li data-aos=""><a href="https://linkedin.com/in/IamGideonIdoko" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
                  </ul>
                </div>
-               <p className="foot-text">&copy; 2020 - Ifex | <i className="fas fa-code"></i> with <span role="img" aria-label="heart emoji">❤️</span> | All rights reserved.</p>
+               <p className="foot-text">&copy; 2020 - <a href="https://github.com/IamGideonIdoko" target="_blank" rel="noopener noreferrer" style={{color: 'var(--font-color)'}} >Gideon Idoko</a> | <i className="fas fa-code"></i> with <span role="img" aria-label="heart emoji">❤️</span> | All rights reserved.</p>
 
                <div>
                	<BottomNav backward="about" />

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import WlcSection from '../WlcSection';
 import { Helmet } from 'react-helmet'
-import siteImg from '../../igifexstyles/images/project-images/IG-Ifex-Site-Img.png'
+// import siteImg from '../../igifexstyles/images/project-images/IG-Ifex-Site-Img.png'
 
 const Home = () => {
 
