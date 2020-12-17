@@ -7,6 +7,7 @@ import Projects from './components/pages/Projects';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import ErrNotFound from './components/pages/ErrNotFound';
+import IconFill from './components/IconFill.js';
 import './index.css';
 
 class App extends Component {
@@ -21,8 +22,10 @@ render() {
 		<Router>
 			<Fragment>
 				<CursorView />
+				<IconFill />
 				<Header />
 					<Switch>
+
 						<Route exact path='/' component={Home} />
 						<Route path='/projects' component={Projects} />
 						<Route path='/about' component={About} />

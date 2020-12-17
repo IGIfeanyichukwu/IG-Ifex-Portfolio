@@ -1,24 +1,24 @@
 ## Portfolio Website
 
-#### _...for Ifex_
+#### _...for Gideon Idoko_
 
-I am I. G Ifeanyichukwu (Ifex)😎 and this is my [portfolio website](https://ig-ifex.netlify.app). It is built with [React](https://reactjs.org)🔥 and hosted on [Netlify](https://www.netlify.com).
+I am Gideon Idoko😎 and this is my [portfolio website](https://gideonidoko.netlify.app). It is built with [React](https://reactjs.org)🔥 and hosted on [Netlify](https://www.netlify.com).
 
 
 ## Contributing
 
-This project is built with React. If you happen to find any bug on the [site](https://ig-ifex.netlify.app) or you have a features request, do well to [create an issue](https://github.com/IGIfeanyichukwu/IG-Ifex-Portfolio/issues) on it.
+This project is built with React. If you happen to find any bug on the [site](https://gideonidoko.netlify.app) or you have a features request, do well to [create an issue](https://github.com/IamGideonIdoko/My-Portfolio/issues) on it.
 
 * Clone the repository 
 
 ```bash
-    git clone https://github.com/IGIfeanyichukwu/IG-Ifex-Portfolio.git
+    git clone https://github.com/IamGideonIdoko/My-Portfolio.git
 ```
 
 * Change the directory
 
 ```bash
-    cd IG-Ifex-Portfolio
+    cd My-Portfolio
 ```
 
 * Install dependencies
@@ -42,11 +42,11 @@ This project is built with React. If you happen to find any bug on the [site](ht
     npm run build
 ```
 
-[Pull requests](https://github.com/IGIfeanyichukwu/IG-Ifex-Portfolio/pulls) are highly welcome.
+[Pull requests](https://github.com/IamGideonIdoko/My-Portfolio/pulls) are highly welcome.
 
 ## License
 
 MIT
 
 ### Author
-[I. G Ifeanyichuwku (Ifex)](https://ig-ifex.netlify.app)
+[Gideon Idoko](https://github.com/IamGideonIdoko)

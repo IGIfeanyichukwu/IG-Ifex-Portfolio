@@ -6,10 +6,10 @@ import siteImg from '../../igifexstyles/images/project-images/IG-Ifex-Site-Img.p
 const Home = () => {
 
 	const seo = {
-		title: "I.G Ifex - Frontend Developer",
-		description: "I.G Ifeanyichukwu is a creative Frontend Developer. He builds visually appealing fully responsive websites and applications using awesome technologies like CSS, JavaScript and PHP basically.",
-		url: 'https://ig-ifex.netlify.app',
-		image: siteImg
+		title: "Gideon Idoko - Frontend Developer",
+		description: "Gideon Idoko is a creative Frontend Developer. He builds visually appealing fully responsive websites and applications using awesome technologies like CSS, JavaScript and PHP basically.",
+		url: 'https://gideonidoko.netlify.app',
+		image: null
 	};
 
 	return(

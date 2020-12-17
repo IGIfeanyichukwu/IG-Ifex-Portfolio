@@ -30,7 +30,7 @@ const FullscreenSwitch = () => {
 	});
 
 	return (
-		<div className="fullscreen-switch" onDoubleClick={handleFullscreenSwitch} title="fullscreen(dbl-click)">
+		<div className="fullscreen-switch" onClick={handleFullscreenSwitch} title="fullscreen(dbl-click)">
 			<i className={isFullscreen ? "fas fa-compress" : "fas fa-expand"}></i>
 		</div>
 		)

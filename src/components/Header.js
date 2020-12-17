@@ -64,7 +64,7 @@ return (
 		<header className={menuOpen ? "main-header make-fixed" : "main-header"}>
 			{ /*Main Header*/ }
           <div className="logo">
-           <h1 className="header-txt">IG-IFEX</h1> 
+           <h1 className="header-txt"></h1> 
            </div>
            <div className="main-header-nav">
            <div style={getNavStyle()} className="nav-bg nav-bg1"></div>
@@ -80,16 +80,16 @@ return (
                <div className="nav-right">
                  <ul>
                   <li><NavLink onClick={handleMenuClick} to="/contact">Contact</NavLink></li>
-                   <li><a href="https://ig-ifex.hashnode.dev" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} >Blog</a></li>
+                   <li><a href="https://gideonidoko.hashnode.dev" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} >Blog</a></li>
                    <li><a href="https://drive.google.com/file/d/1ItIfjpa0O6TcJpORZ5WKcv8TRusEdTbX/view?usp=sharing" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} >Résumé</a></li>
                  </ul>
                </div>  
                <div className="social-links">
                  <ul>
-                   <li><a href="https://github.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} ><i className="fab fa-github"></i></a></li>
-                   <li><a href="https://codepen.io/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} ><i className="fab fa-codepen"></i></a></li>
-                   <li><a href="https://twitter.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} ><i className="fab fa-twitter"></i></a></li>
-                   <li><a href="https://linkedin.com/in/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} ><i className="fab fa-linkedin"></i></a></li>
+                   <li><a href="https://github.com/IamGideonIdoko" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} ><i className="fab fa-github"></i></a></li>
+                   <li><a href="https://codepen.io/IamGideonIdoko" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} ><i className="fab fa-codepen"></i></a></li>
+                   <li><a href="https://twitter.com/IamGideonIdoko" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} ><i className="fab fa-twitter"></i></a></li>
+                   <li><a href="https://linkedin.com/in/IamGideonIdoko" target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} ><i className="fab fa-linkedin"></i></a></li>
                  </ul>
                </div>
            </nav>

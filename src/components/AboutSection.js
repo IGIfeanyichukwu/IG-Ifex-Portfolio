@@ -17,13 +17,13 @@ useEffect(() => {
 	Aos.init({});
 }, [])
 
-const allRenderedicons = document.querySelectorAll('.rendered-icons');
+/*const allRenderedicons = document.querySelectorAll('.rendered-icons');
  if(allRenderedicons.length > 0) { 
    allRenderedicons.forEach(icon => {
      icon.style.display = 'none';
    })
  }
-
+*/
 	return (
 		<div className="about-section">
 			<div className="about">

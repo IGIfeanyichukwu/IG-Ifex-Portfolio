@@ -5,10 +5,10 @@ import siteImg from '../../igifexstyles/images/project-images/IG-Ifex-Site-Img.p
 
 const Home = () => {
 	const seo = {
-		title: "About | I.G Ifex - Frontend Developer",
-		description: "Ifeanyichukwu Gideon Idoko (Ifex) a self-taught developer who is interested in technology, programming, design, writing, research, blogging and community building. He aims at becoming a top-notch Software Engineer which he is painstakingly working towards to.",
-		url: 'https://ig-ifex.netlify.app/about',
-		image: siteImg
+		title: "About - Gideon Idoko",
+		description: "Gideon Idoko a self-taught developer who is interested in technology, programming, design, writing, research, blogging and community building. He aims at becoming a top-notch Software Engineer which he is painstakingly working towards to.",
+		url: 'https://gideonidoko.netlify.app/about',
+		image: null
 	};
 
 	return(

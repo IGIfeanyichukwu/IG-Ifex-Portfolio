@@ -6,9 +6,9 @@ import siteImg from '../../igifexstyles/images/project-images/IG-Ifex-Site-Img.p
 const Projects = () => {
 
 	const seo = {
-		title: "Projects | I.G Ifex - Frontend Developer",
+		title: "Projects - Gideon Idoko",
 		description: "Check out some of the fun projects Ifeanyichukwu Gideon Idoko has worked on.",
-		url: 'https://ig-ifex.netlify.app/projects',
+		url: 'https://gideonidoko.netlify.app/projects',
 		image: siteImg
 	};
 

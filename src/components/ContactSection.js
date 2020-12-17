@@ -17,12 +17,12 @@ window.setTimeout(function () { setIsAnimatable(false); }, 4500);
 }, [])
 
 
-const allRenderedicons = document.querySelectorAll('.rendered-icons');
+/*const allRenderedicons = document.querySelectorAll('.rendered-icons');
  if(allRenderedicons.length > 0) { 
    allRenderedicons.forEach(icon => {
      icon.style.display = 'none';
    })
- }
+ }*/
 
 	return (
 		<div className="contact-section">
@@ -36,7 +36,7 @@ const allRenderedicons = document.querySelectorAll('.rendered-icons');
 			<div className="contact-info">
 			<div>
 			<h4>Email</h4>
-				<p className="email-info"><a href="mailto:if3cofr3sh@gmail.com" >if3cofr3sh@gmail.com</a><span></span></p>
+				<p className="email-info"><a href="mailto:iamgideonidoko@gmail.com" >iamgideonidoko@gmail.com</a><span></span></p>
 			</div>
 			<div>
 				<h4>Phone(NG)</h4>
@@ -46,10 +46,10 @@ const allRenderedicons = document.querySelectorAll('.rendered-icons');
 			<h3>Connect with me:</h3>
 				<div className="connect-links">
                  <ul>
-                   <li data-aos="fade-right"><a href="https://github.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
-                   <li data-aos="fade-up-right"><a href="https://codepen.io/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a></li>
-                   <li data-aos="fade-up-left"><a href="https://twitter.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
-                   <li data-aos="fade-left"><a href="https://linkedin.com/in/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
+                   <li data-aos="fade-right"><a href="https://github.com/IamGideonIdoko" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+                   <li data-aos="fade-up-right"><a href="https://codepen.io/IamGideonIdoko" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a></li>
+                   <li data-aos="fade-up-left"><a href="https://twitter.com/IamGideonIdoko" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
+                   <li data-aos="fade-left"><a href="https://linkedin.com/in/IamGideonIdoko" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
                  </ul>
                </div>
                <p className="foot-text">&copy; 2020 - Ifex | <i className="fas fa-code"></i> with <span role="img" aria-label="heart emoji">❤️</span> | All rights reserved.</p>

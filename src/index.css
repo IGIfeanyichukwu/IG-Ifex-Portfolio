@@ -48,6 +48,7 @@
     --forth-bg-color: rgba(0, 0, 0, 0.8);
     --rendered-icons-opacity2: 0.2;
     --header-color: #fff;
+    --project-shadow: rgba(255, 255, 255, 0.4);
 
 
 }
@@ -68,6 +69,8 @@
     --forth-bg-color: rgba(255, 255, 255, 0.7);
     --rendered-icons-opacity2: 0.25;
     --header-color: #000;
+    --project-shadow: rgba(0, 0, 0, 0.4);
+
 }
 
 
@@ -128,7 +131,7 @@ p {
 }
 
 .main {
-    background-color: var(--secondary-bg-color);
+    /*background-color: var(--secondary-bg-color);*/
 }
 
 .para {
@@ -141,7 +144,7 @@ p {
 
 
 .rendered-icons {
-  position: absolute;
+  position: fixed;
   border-radius: 100%;
   opacity: var(--rendered-icons-opacity);
   z-index: 0;
@@ -153,8 +156,8 @@ p {
 
 .project-section, .about-section, .contact-section {
     padding: 9rem 12rem 1rem 12rem;
-    z-index: 3 !important;
-    background-color: var(--secondary-bg-color);
+    z-index: 2 !important;
+    background-color: var(---bg-color);
     min-height: 100vh;
     opacity: 1;
     color: var(--font-color);

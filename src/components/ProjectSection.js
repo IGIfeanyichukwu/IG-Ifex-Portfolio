@@ -18,12 +18,12 @@ useEffect(() => {
 }, [])
 
 
-const allRenderedicons = document.querySelectorAll('.rendered-icons');
+/*const allRenderedicons = document.querySelectorAll('.rendered-icons');
  if(allRenderedicons.length > 0) { 
    allRenderedicons.forEach(icon => {
      icon.style.display = 'none';
    })
- }
+ }*/
 
 
 
@@ -34,7 +34,7 @@ const allRenderedicons = document.querySelectorAll('.rendered-icons');
 			<ul className='project-list'>
 				<AllProjects />
 			</ul>
-			<p>Find more of my projects on <a style={{color: "var(--font-color)", textDecoration: 'underline'}} href="https://github.com/IGIfeanyichukwu" target="_blank" rel="noopener noreferrer">github</a>.</p>
+			<p>Find more of my projects on <a style={{color: "var(--font-color)", textDecoration: 'underline'}} href="https://github.com/IamGideonIdoko" target="_blank" rel="noopener noreferrer">github</a>.</p>
 
 			<BottomNav forward="about" />
 		</div>
