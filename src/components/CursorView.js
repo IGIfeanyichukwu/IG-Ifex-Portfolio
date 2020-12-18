@@ -14,9 +14,9 @@ let mouseX = -100
 let mouseY = -100
 let ringX = -100
 let ringY = -100
-let isHover = false
 let mouseDown = false
 const init_pointer = (options) => {
+// let isHover = false
 
     window.onmousemove = (mouse) => {
         mouseX = mouse.clientX
@@ -42,7 +42,7 @@ const init_pointer = (options) => {
             ringSize: 15,
             ringClickSize: (options["ringSize"] || 15) - 5,
         }
-        if (options[option] == undefined) {
+        if (options[option] === undefined) {
             return defaultObj[option]
         } else {
             return options[option]
@@ -55,10 +55,10 @@ const init_pointer = (options) => {
 
         if (document.querySelector(".p-action-click:hover")) {
             pointer.style.borderColor = getOption("pointerColor")
-            isHover = true
+            // isHover = true
         } else {
             pointer.style.borderColor = "yellow"
-            isHover = false
+            // isHover = false
         }
         ring.style.borderColor = getOption("pointerColor")
         if (mouseDown) {
