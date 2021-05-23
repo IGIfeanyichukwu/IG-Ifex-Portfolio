@@ -12,13 +12,13 @@ This project is built with React. If you happen to find any bug on the [site](ht
 * Clone the repository 
 
 ```bash
-    git clone https://github.com/IamGideonIdoko/My-Portfolio.git
+    git clone https://github.com/IamGideonIdoko/my-first-react-portfolio.git
 ```
 
 * Change the directory
 
 ```bash
-    cd My-Portfolio
+    cd my-first-react-portfolio
 ```
 
 * Install dependencies
